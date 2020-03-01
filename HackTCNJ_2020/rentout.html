@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+<head>
+<title>Post Listing For an Item Form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="rentStyle.css">
+
+</head>
+<body>
+
+<div class="header">
+  <h1>RNTL</h1>
+  <h2>Post Listing Form</h2>
+  <p>Fill out the form below to post a listing for your item.</p>
+  <img src="logo2.png" alt="Logo" width="100" height="100">
+</div>
+
+<div class="navbar">
+  <a href="main.html">Home</a>
+  <a href="rentout.html">Post Listing</a>
+  <a href="#" class="right">Sign Out</a>
+</div>
+
+<div class="row">
+    <div class="main">
+        <h2>Post Listing Form:</h2>
+        <form action="/action_page.php" method="get">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="useremail">Email:</label><br>
+            <input type="email" id="useremail" name="useremail"><br><br>
+            <label for="pname">Product Name:</label><br>
+            <input type="text" id="pname" name="pname"><br><br>
+            <label for="ppic">Product Picture:</label><br>
+            <input type="file" id="ppic" name="ppic"><br><br>
+            <label for="pdescription">Product Description:</label><br>
+            <textarea name = "pdescription" rows = "10" cols = "30"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+  <h2>RNTL</h2>
+</div>
+
+</body>
+</html>
